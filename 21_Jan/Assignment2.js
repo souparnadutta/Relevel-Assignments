@@ -18,3 +18,15 @@ setTimeout(()=>{clearInterval(myInterval)},10000)
 //setInterval function that prints 1 to 10 every 5 seconds 
 const myInterval = setInterval(()=>{printNumbers()},5000)
 
+//Final output will be :-
+
+// 1
+// 2
+// 3
+// 4
+// 5
+// 6
+// 7
+// 8
+// 9
+// 10
