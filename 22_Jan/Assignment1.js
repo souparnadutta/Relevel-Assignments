@@ -9,11 +9,11 @@ let port=8448
 
 const server = http.createServer((req,res)=>{
    //res.writeHead(200,{'Content-type':'text/csv'})
-   res.write(JSON.stringify({firstWord:'hello',secondWord:'world'}))
+   res.write(JSON.stringify({firstWord:'hello',secondWord:'world'})) //Content of response
    
-   res.end()
+   res.end()   //end of response
 
    console.log('Server started')
 })
 
-server.listen(port)
+server.listen(port) //server created at localhost:8448
